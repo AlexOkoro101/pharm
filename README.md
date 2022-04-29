@@ -34,7 +34,7 @@ Before you begin the remaining tasks, it is highly recommended that you consider
 
 ## Task 2: UI Implementation from Prototype
 
-Study the Adobe XD prototype [pharmacy UI](https://xd.adobe.com/view/563b6800-cc1c-434c-b4f6-b405bf7bfaf3-0368/) design.
+Study the Adobe XD prototype [pharmacy UI](https://xd.adobe.com/view/b73ca2e3-14ef-4fe9-87bc-e53bd5c109b1-e26f/specs) design.
 
 ### Search UI
 
