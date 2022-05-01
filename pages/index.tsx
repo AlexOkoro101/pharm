@@ -17,13 +17,12 @@ const Home: NextPage = () => {
   const [active, setactive] = useState<string>("all");
 
   useEffect(() => {
-    getDrugs()
-  
-  }, [])
+    getDrugs();
+  }, []);
 
   const getDrugs = async () => {
     await fetchDrugs();
-  }
+  };
 
   
   const filteredDrugs: Drug[] = useMemo<Drug[]>(() => {
@@ -53,9 +52,6 @@ const Home: NextPage = () => {
         <title>Pharmacy App</title>
         <meta name="description" content="Pharmacy App" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="crossorigin" />
-        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;500;700;900&display=swap" rel="stylesheet" />
       </Head>
 
       {loading ? (
